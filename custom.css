@@ -1,1 +1,18 @@
-/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+/* Override Bootstrap primary color with orange */
+.bg-orange {
+    background-color: #fd7e14 !important; /* Bootstrap's 'orange' */
+}
+
+.text-primary {
+    color: #fd7e14 !important;
+}
+
+.btn-primary {
+    background-color: #fd7e14 !important;
+    border-color: #fd7e14 !important;
+}
+
+.btn-primary:hover {
+    background-color: #dc6b12 !important; /* Darker shade for hover */
+    border-color: #dc6b12 !important;
+}
